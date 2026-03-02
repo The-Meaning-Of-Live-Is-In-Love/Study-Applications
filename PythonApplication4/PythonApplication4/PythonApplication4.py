@@ -1,0 +1,9 @@
+def Search_Maximum_Value(Value_1, Value_2):
+    if (Value_1 > Value_2):
+        print(Value_1)
+    else:
+        print(Value_2)
+    return 0
+Value_1 = int(input('\u0412\u0432\u0435\u0434\u0438\u0442\u0435\u0020\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435\u0020\u043f\u0435\u0440\u0432\u043e\u0433\u043e\u0020\u0447\u0438\u0441\u043b\u0430\u002e\n'))
+Value_2 = int(input('\u0412\u0432\u0435\u0434\u0438\u0442\u0435\u0020\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435\u0020\u0432\u0442\u043e\u0440\u043e\u0433\u043e\u0020\u0447\u0438\u0441\u043b\u0430\u002e\n'))
+Search_Maximum_Value(Value_1, Value_2)

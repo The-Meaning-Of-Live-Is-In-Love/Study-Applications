@@ -1,0 +1,9 @@
+def Calculation_Arithmetic_Mean(Value_1, Value_2, Value_3):
+    Arithmetic_Mean = Value_1 + Value_2 + Value_3
+    print('\u0421\u0443\u043c\u043c\u0430\u0020\u0442\u0440\u0451\u0445\u0020\u0447\u0438\u0441\u0435\u043b\u0020\u0440\u0430\u0432\u043d\u0430')
+    print(Arithmetic_Mean)
+    return 0
+Value_1 = int(input('\u0412\u0432\u0435\u0434\u0438\u0442\u0435\u0020\u043f\u0435\u0440\u0432\u043e\u0435\u0020\u0447\u0438\u0441\u043b\u043e.\n'))
+Value_2 = int(input('\u0412\u0432\u0435\u0434\u0438\u0442\u0435\u0020\u0432\u0442\u043e\u0440\u043e\u0435\u0020\u0447\u0438\u0441\u043b\u043e.\n'))
+Value_3 = int(input('\u0412\u0432\u0435\u0434\u0438\u0442\u0435\u0020\u0442\u0440\u0435\u0442\u044c\u0435\u0020\u0447\u0438\u0441\u043b\u043e.\n'))
+Calculation_Arithmetic_Mean(Value_1, Value_2, Value_3)
