@@ -7,18 +7,18 @@ class T_Log_Element
 	protected:
 		bool F_Result;
 		virtual void Calculation() = 0;
-		bool Set_In_Value_1(bool New_In_Value_1);
+		void Set_In_Value_1(bool New_In_Value_1);
 		bool Get_In_Value_2()
 		{
 			return F_In_Value_2;
 		}
-		bool Set_In_Value_2(bool New_In_Value_2);
+		void Set_In_Value_2(bool New_In_Value_2);
 		bool Get_In_Value_3()
 		{
 			return F_In_Value_3;
 		}
-		bool Set_In_Value_3(bool New_In_Value_3);
-	public:
+		void Set_In_Value_3(bool New_In_Value_3);
+		public:
 		bool Get_In_Value_1()
 		{
 			return F_In_Value_1;
